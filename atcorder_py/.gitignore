@@ -1,6 +1,0 @@
-*.*
-!*.py
-!*.json
-!*.txt
-!/.vscode/
-!.gitignore
