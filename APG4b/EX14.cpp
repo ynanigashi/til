@@ -6,5 +6,5 @@ int main() {
     vector<int> H(3);
     rep(i, 3) cin >> H.at(i);
     sort(H.begin(), H.end());
-    cout << H.end() - H.begin() << endl;
+    cout << H.at(2) - H.at(0) << endl;
 }
