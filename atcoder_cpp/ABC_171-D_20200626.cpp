@@ -24,7 +24,7 @@ int main() {
         int B, C;
         cin >> B >> C;
         sum += (C-B) * int_list.at(B);
-        cout << sum;
+        cout << sum << endl;
         int_list.at(C) += int_list.at(B);
         int_list.at(B) = 0;
     }
