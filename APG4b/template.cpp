@@ -4,7 +4,7 @@ using namespace std;
 using ll = long long;
 using P = pair<int, int>;
 using vi = vector<int>;
-using vivi = vector<vi>;
+using vvi = vector<vi>;
 
 int main() {
 
