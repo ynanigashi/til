@@ -9,15 +9,14 @@ using vvi = vector<vi>;
 int main() {
     int n;
     cin >> n;
-    vector<P> P_list(n);
+    map<int, int> am;
+    int max_num = 0;
+    am[max_num];
     rep(i, n){
-        P p;
-        cin >> p.second;
-        cin >> p.first;
-        P_list.at(i) = p;
+        int a;
+        cin >> a;
+        am[a]++;
+        if(am.at(max_num) < am.at(a)) max_num = a;
     }
-    sort(P_list.begin(), P_list.end());
-    for(auto p: P_list){
-        cout << p.second << " " << p.first << endl;
-    }
+    cout << max_num << " " << am.at(max_num) << endl;
 }
