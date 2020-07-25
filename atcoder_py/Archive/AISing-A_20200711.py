@@ -19,6 +19,7 @@ X = int(input(),2)
 for i in range(N-1,-1,-1):
     j = X^1<<i
     cnt = 0
+    if(j == 0) break
     while j > 0:
         j %= popcount(j)
         cnt += 1
