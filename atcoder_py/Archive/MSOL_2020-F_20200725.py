@@ -34,5 +34,5 @@ while True:
             if grid[i][0] == grid[j][0] and grid[i][1] == grid[j][1]:
                 break_flg = True
                 print(cnt)
-                break;
+                break
     if break_flg: break
