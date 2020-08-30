@@ -7,5 +7,14 @@ using vvi = vector<vi>;
 using P = pair<int, int>;
 
 int main() {
+    int n;
+    cin >> n;
+    set<int> d;
+    rep(i, n) {
+        int j;
+        cin >> j;
+        d.insert(j);
+    }
+    cout << d.size() <<endl;
     return 0;
 }
