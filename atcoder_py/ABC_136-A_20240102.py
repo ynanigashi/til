@@ -20,3 +20,22 @@ def count_digits(n):
     return count
 
 n = int(input())
+ans = 0
+len_of_digits = count_digits(n)
+
+if len_of_digits == 6:
+    ans = 90909
+elif len_of_digits == 5:
+    ans = 909
+    ans += n - 9999
+elif len_of_digits == 4:
+    ans = 909
+elif len_of_digits == 3:
+    ans = 9
+    ans += n - 99
+elif len_of_digits ==2:
+    ans = 9
+elif len_of_digits ==1:
+    ans = n
+
+print(ans)
