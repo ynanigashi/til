@@ -1,0 +1,5 @@
+num_of_coors = int(input())
+coors = tuple(map(int, input().split()))
+print(sum(map(abs, coors)))
+print(sum(map(lambda x: x ** 2, coors)) ** 0.5)
+print(max(map(abs, coors)))
