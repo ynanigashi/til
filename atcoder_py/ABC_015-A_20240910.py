@@ -1,5 +1,3 @@
-a = int(input())
-b = int(input())
-mod = a % b
-print(b - mod if mod != 0 else 0)
-
+a = input()
+b = input()
+print(a if len(a) > len(b) else b)
